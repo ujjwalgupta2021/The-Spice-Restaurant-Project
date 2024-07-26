@@ -9,17 +9,16 @@ import {
 } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-database.js";
 
 // Your web app's Firebase configuration
-require('dotenv').config();
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
-  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
-  databaseURL: process.env.FIREBASE_DATABASE_URL,
-  projectId: process.env.FIREBASE_PROJECT_ID,
-  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.FIREBASE_APP_ID
-};
-console.log(firebaseConfig);
+	apiKey: "AIzaSyALqbem-PanSc4wlD5axDz4PvOgHxY9fyU",
+	authDomain: "thespice-c8fc7.firebaseapp.com",
+	databaseURL: "https://thespice-c8fc7-default-rtdb.firebaseio.com",
+	projectId: "thespice-c8fc7",
+	storageBucket: "thespice-c8fc7.appspot.com",
+	messagingSenderId: "725495548509",
+	appId: "1:725495548509:web:7ff60522e91a38de3d9bb4",
+	measurementId: "G-G9Y079K7F3"
+  };
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
